@@ -1,5 +1,6 @@
 from django import forms
 
+
 class CommentForm(forms.Form):
     author = forms.CharField(
         max_length=60,
@@ -14,3 +15,4 @@ class CommentForm(forms.Form):
             "placeholder": "Leave a comment!"
         })
     )
+    
